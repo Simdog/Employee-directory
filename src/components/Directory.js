@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import EmployeeCard from "./EmployeeCard";
+import EmployeeTable from "./EmployeeTable";
 import EmployeeSearch from "./EmployeeSearch";
 import employees from "./employees.json";
 
-class EmployeeDirectory extends Component {
+class Directory extends Component {
 
     state = {
         employees,
@@ -12,11 +12,10 @@ class EmployeeDirectory extends Component {
     };
 
     handleInputChange = event => {
-        event.preventDefault()
 
         const value = event.target.value;
 
-        const searchResults = this.state.employees.filter(employee => value === employee.firstName || value === employee.lastName || value === employee.gender)
+        const searchResults = this.state.employees.filter(employee => value === employee.firstName || value === employee.lastName)
 
         this.setState({ search: value, searchResults: searchResults });
     };
@@ -44,7 +43,7 @@ class EmployeeDirectory extends Component {
 
                 <div className="container">
                     <div className="row">
-                        <EmployeeCard employees={this.state.searchResults} />
+                        <EmployeeTable employees={this.state.searchResults} />
                     </div>
                 </div>
 
@@ -53,4 +52,4 @@ class EmployeeDirectory extends Component {
     }
 }
 
-export default EmployeeDirectory;
+export default Directory;

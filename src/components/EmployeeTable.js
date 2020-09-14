@@ -1,7 +1,6 @@
-
 import React from "react";
 import Table from "react-bootstrap/Table";
-import EmployeeHeader from "./EmployeeHeader"
+import TableHeader from "./TableHeader"
 
 function EmployeeTable(props) {
 
@@ -9,7 +8,7 @@ function EmployeeTable(props) {
     return (
         <div className="col-12">
             <Table className="m-5" hover bordered>
-                <EmployeeHeader />
+                <TableHeader />
                 {props.employees.map(employee => (
                     <tbody>
                         <tr>
@@ -17,7 +16,6 @@ function EmployeeTable(props) {
                             <td>{employee.firstName}</td>
                             <td>{employee.lastName}</td>
                             <td>{employee.email}</td>
-                            <td>{employee.gender}</td>
                         </tr>
                     </tbody>
 

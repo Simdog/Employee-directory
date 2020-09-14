@@ -1,10 +1,8 @@
 import React from 'react';
-import EmployeeDirectory from './components/EmployeeDirectory';
+import Directory from "./components/Directory.js"
 
 function App() {
-  return (
-    <EmployeeDirectory />
-  )
+  return <Directory />;
 }
 
 export default App;

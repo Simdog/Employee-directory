@@ -6,7 +6,7 @@ function EmployeeSearch(props) {
     <div className="col-6">
       <form className="mx-5">
         <div className="form-group">
-          <label htmlFor="search">Search for an Employee by First or Last Name or Gender:</label>
+          <label htmlFor="search">Search for an Employee by First or Last Name:</label>
           <input
             onChange={props.handleInputChange}
             value={props.search}

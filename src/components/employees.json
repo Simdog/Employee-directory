@@ -1,59 +1,50 @@
-  
 [
     {
         "id": 1,
-        "firstName": "Sim",
-        "lastName": "Dog",
-        "email": "simdog@gmail.com",
-        "gender": "Male"
+        "firstName": "Simdog",
+        "lastName": "Ogunyemi",
+        "email": "simdog@gmail.com"
     },
     {
         "id": 2,
-        "firstName": "Cool",
-        "lastName": "Cat",
-        "email": "coolcat4@gmail.com",
-        "gender": "Male"
+        "firstName": "Sam",
+        "lastName": "Schmitz",
+        "email": "sschmitz@gmail.com"
     },
     {
         "id": 3,
-        "firstName": "Elon",
-        "lastName": "Musk",
-        "email": "Muskyelon@gmail.com",
-        "gender": "Male"
+        "firstName": "Rihanna",
+        "lastName": "Fenty",
+        "email": "fenty@gmail.com"
     },
     {
         "id": 4,
-        "firstName": "Kim",
-        "lastName": "Kardashian West",
-        "email": "KKWest@gmail.com",
-        "gender": "Female"
+        "firstName": "Randy",
+        "lastName": "Moss",
+        "email": "randymoss@gmail.com"
     },
     {
         "id": 5,
-        "firstName": "Harley",
-        "lastName": "Quinn",
-        "email": "billnyethescienceguy@gmail.com",
-        "gender": "Female"
+        "firstName": "Bill",
+        "lastName": "Gates",
+        "email": "bg@gmail.com"
     },
     {
         "id": 6,
-        "firstName": "Oprah",
-        "lastName": "Winfrey",
-        "email": "mossrandy@gmail.com",
-        "gender": "Female"
+        "firstName": "Jackie",
+        "lastName": "Chan",
+        "email": "jchan@gmail.com"
     },
     {
         "id": 7,
-        "firstName": "The",
-        "lastName": "Joker",
-        "email": "jokesonyou@gmail.com",
-        "gender": "Male"
+        "firstName": "dwayne",
+        "lastName": "Wayde",
+        "email": "wayde@gmail.com"
     },
     {
         "id": 8,
-        "firstName": "Rihanna",
-        "lastName": "Fenty",
-        "email": "svg@gmail.com",
-        "gender": "Female"
+        "firstName": "Steve",
+        "lastName": "Job",
+        "email": "Job@gmail.com"
     }
 ]
